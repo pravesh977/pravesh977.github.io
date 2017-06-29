@@ -1,0 +1,310 @@
+body {
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 750px) {
+    body {
+        background: #FFF3E0;
+        font-family: 'Libre Baskerville', serif;
+        text-align: justify;
+        box-sizing: border-box;
+        }
+    .mainwelcome {
+        padding: 10px;
+    }
+        .aboutme {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+        margin: 2% auto 0px;
+        min-width: 90%;
+    }
+    .aboutme img {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto ;
+        height: 350px;
+        min-width: inherit;
+    }
+    .aboutsubdiv {
+        width: inherit;
+        margin: 0 auto;
+        background: #221503;
+        min-width: inherit;
+    }
+   
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    nav ul li {
+        list-style-type: none;
+        text-align: center;
+        margin: 2% 0px 2% 0px;
+    }
+    nav ul li a{
+        flex-direction: column;
+        color: aliceblue;
+        float: none;
+        text-decoration: none;
+        font-size: 18px;
+    }
+ 
+    nav ul li a:hover {
+    background: #FFF3E0;
+    transition: 0.5s;
+    color: black;
+    border-radius: 5px;   
+        }
+    #myskills, #myworks {
+        margin-top: 30%;
+        text-align: center;
+    }
+    .skillsdiv {
+        display: flex;
+        flex-wrap: wrap;
+        background: #221503;
+        justify-content: space-between;
+        text-align: center;
+        color: aliceblue;
+        padding: 5px;
+    }
+    .skillsdiv img {
+        height: 80px;
+        width: 80px;
+    }
+    .skillsdiv div{
+        flex-wrap: wrap;
+    }
+    #contact {
+        text-align: center;
+        margin: 10% 0px 0px 0px;
+    }
+    #contact a {
+        background: #221503;
+        text-decoration: none;
+        color: aliceblue;
+        border-radius: 3px;
+    }
+    #contact a:hover {
+    background: #FFB839;
+    color: black;
+            }
+    .firstblock {
+        background: #221503;
+        color: aliceblue;
+        padding: 2px;
+    }
+    
+    #myprojects div {
+        background: #221503;
+        color: aliceblue;
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #myprojects img {
+        width: 80vw;
+        height: 30vh;
+    }
+    footer {
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 750px){
+body {
+    background: #FFF3E0;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color:aliceblue;
+}
+
+.firstblock {
+    background: #221503;
+    color:aliceblue;
+    height: 45%;
+    letter-spacing: 1px;
+}
+nav {
+    display:flex;
+    font-size: 20px;
+    float:right;
+    margin-right: 3%;
+    margin-top:1%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    list-style-type: none;
+    flex-direction: row;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin:0px 5px 0px 2px;
+    color:aliceblue;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover {
+    background: #FFF3E0;
+    transition: 0.5s;
+    color: black;
+    border-radius: 5px;   
+}
+
+nav ul {
+    flex-direction: row;
+}
+
+.mainwelcome {
+    text-align: center;
+    margin: 20% auto 50px;
+    clear:both;
+    width: 50%;
+}
+
+.aboutme {
+    display: flex;
+    margin: 5% auto 4%;
+    width: 80%;
+    color: aliceblue;
+    }
+
+.aboutme img {
+    height: 350px;
+    width: 45%;
+}
+    
+.aboutsubdiv {
+    text-align: center;
+/*    padding: 20px;*/
+    background: #221503;
+/*    height: inherit;*/
+    box-sizing: border-box;
+    padding: 5px;
+}
+    
+#myskills, #myworks {
+    margin-top: 10%;
+    color: black;
+    
+}
+.skillsdiv {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    margin: 0% auto 5%;
+    width:60vw;
+    background: #221503;
+    justify-content: space-around;
+}
+
+.skillsdiv img {
+    height:150px;
+    width:150px;
+}
+
+.skillsdiv div {
+    margin: 20px;
+    
+}
+
+#myprojects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#myprojects div {
+    background: #221503;
+    width: 450px;
+    margin: 5px;
+}
+
+#myprojects img {
+    width: 450px;
+    height: 300px;
+/*    border-radius: 50px;*/
+}
+
+    #myprojects img:hover {
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+        filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+        right: 10px;
+        bottom: 10px;
+        position: relative;
+    }
+
+#myprojects p {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    margin: 10% 0px 0px 0px;
+    color: black;
+}
+#contact p {
+    font-weight: bold;
+}
+
+#contact a {
+    background: #221503;
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    width: 22vw;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding-top: 15px;
+}
+
+#contact a:hover {
+    background: #FFB839;
+    color: black;
+}
+
+footer {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+}
+@media only screen and (max-width: 1000px) {
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .aboutme img {
+        text-align: center;
+        margin: 0 auto;
+        width: 65%
+    }
+    .firstblock {
+        margin-bottom: 2%;
+    }
+    .aboutsubdiv {
+        width: 65%;
+        margin: 0 auto;
+        
+    }
+}
